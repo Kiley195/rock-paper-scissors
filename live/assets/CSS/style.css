@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(pexels-darina-belonogova-8789747.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 500%;
+    color: #12a9a9;
+}
+
+#play {
+    margin: 0% auto;
+    padding: 3%;
+    color: #12a9a9;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+@media (max-width: 768px){
+    body{
+    background-size: contain;
+    }
+}
